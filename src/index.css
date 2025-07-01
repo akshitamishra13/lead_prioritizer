@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.glow-hover:hover {
+  color: white; /* blue-400 */
+  text-shadow:
+    0 0 7px white
+
+}
+.glow-hover:active {
+  transform : scale(1.015);
+  text-shadow:
+    0 0 15px black
+
+}
